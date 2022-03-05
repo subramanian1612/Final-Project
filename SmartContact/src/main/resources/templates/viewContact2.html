@@ -27,7 +27,7 @@
       <th style="width:110px;" scope="col">Email</th>
       <th style="width:160px;" scope="col">Description</th>
       <th style="width:100px;" scope="col">Work</th>
-      <th style="width:110px;" scope="col">Image</th>
+     <!--  <th style="width:110px;" scope="col">Image</th> -->
       <th style="width:110px;" scope="col">Action</th>
       
     </tr>
@@ -43,12 +43,12 @@
 		 	   <td th:text = "${contact.email}"></td>
 		 	   <td th:text = "${contact.description}"></td>
 		       <td th:text = "${contact.work}"></td>
-			   <td th:text = "${contact.image}"></td> 
+			  <!--  <td th:text = "${contact.image}"></td>  -->
 			   
 			   <td>
 			   <a th:href="@{'/updateContact'+${contact.cid}}"  class = "settings btn btn-secondary btn-sm mb-2"> Update</a>
 			   <a th:href="@{'/deletecontact'+${contact.cid}}" class = "settings btn btn-secondary btn-sm mb-2"> Delete</a>
-			      </td>
+			   </td>
 			   
 	      </tr>
     

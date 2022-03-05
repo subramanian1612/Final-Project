@@ -40,8 +40,7 @@ public class HomeController {
 		
 	}
 	
-	
-	
+
 	@GetMapping("/base")
 	public String base() {
 		return "base";
@@ -68,10 +67,7 @@ public class HomeController {
 		return "about";
 		
 	}
-	
-	
-	
-	
+		
 	
 	@RequestMapping("/signup")
 	public String signup(@ModelAttribute User user, Model model)

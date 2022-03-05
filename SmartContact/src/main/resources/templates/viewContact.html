@@ -35,7 +35,7 @@
 					<th> Work </th>
 					<th> Phone </th>
 					<th> Email </th>
-					<th> image </th>
+					<!-- <th> image </th> -->
 					<th> Description </th>
 					<th>Action</th>
 
@@ -52,7 +52,7 @@
 					<td th:text = "${contact.phone}"></td>
 					<td th:text = "${contact.email}"></td>
 					<td th:text = "${contact.description}"></td>
-					<td th:text = "${contact.image}"></td> 
+					<!-- <td th:text = "${contact.image}"></td>  -->
 					
 					<td>
 					<a  th:href="@{'/updateContact'+${contact.cid}}" class = "btn btn-primary btn-sm mb-2"> update </a>
